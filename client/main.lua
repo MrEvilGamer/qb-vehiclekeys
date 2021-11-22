@@ -9,6 +9,8 @@ local Keys = {
     ["LEFT"] = 174, ["RIGHT"] = 175, ["TOP"] = 27, ["DOWN"] = 173,
 }
 
+QBCore = exports['qb-core']:GetCoreObject()
+
 local hasBeenUnlocked = {}
 local HasKey = false
 local gotKeys = false
